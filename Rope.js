@@ -16,7 +16,7 @@ class Rope{
         var pointA = this.rope.bodyA.position;
         var pointB = this.rope.bodyB.position;
         var Anchor1X = pointA.x;
-        var Anchor1Y = pointA.y + 50;
+        var Anchor1Y = pointA.y - 40;
         var Anchor2X = pointB.x + this.offsetX;
         var Anchor2Y = pointB.y + this.offsetY;
 
