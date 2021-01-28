@@ -3,7 +3,7 @@ class Rope{
         this.offsetX = offsetX;
         this.offsetY = offsetY;
         var options = {
-            length: 300,
+            length: 200,
             bodyA: body1,
             bodyB: body2,
             pointB: {x: this.offsetX, y:this.offsetY}
